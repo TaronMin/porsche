@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.ninth-car>p,.sixth-car>p,.first-car>p,.third-car>p{
+    color: #000;
+}
+.first-title{
+    width: 100%;
+    height: 100%;
+    background: url("./photo/title.jpg") no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 999;
+}
+.title-img>img{
+    width: 100px;
+    position: absolute;
+    top: 10px;
+    right: 0px;
+}
+.porsche-span{
+    color: #B13C3C;
+    font-weight: 500;
+    font-size: 20pt;
+}
+.first-p-in-title{
+    font-size: 20pt;
+    font-weight: 300;
+    color: #7D7D7D;
+    letter-spacing: 1px;
+    padding-bottom: 1px;
+}
+.second-p-in-title{
+    color: rgba(113, 113, 113, 1);
+    font-weight: 300;
+}
+.p-div{
+    position: absolute;
+    top: 70px;
+    left: 70px;
+}
+.start-href{
+    padding: 11px 25px 13px;
+    letter-spacing: 0.25px;
+    background: transparent;
+    border: 2px solid #B13C3C;
+    color: #B13C3C;
+    font-size: 22px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all .2s ease-in-out;
+    white-space: nowrap;
+}
+.start-href:hover{
+    color: #fff;
+    background: #B13C3C;
+}
+.href-div{
+    position: absolute;
+    left: 40%;
+    bottom: 100px;
+}
+.navbar-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    left: 0px;
+    top: 100px;
+}
+.navbar-left>a{
+    color: rgb(243, 219, 6);
+    padding: 10px;
+    position: relative;
+}
+.navbar-left>a::after{
+    content: "";
+    height: 2px;
+    width: 80px;
+    position: absolute;
+    background: rgba(155, 5, 5, 0.95);
+    top: 35px;
+    left: -10px;
+    transition: 0.5s ease;
+}
+.navbar-left>a:hover::after{
+    background: #c1c1cc;
+}
+.ferdinant-porsche{
+    width: 100%;
+    height: 100%;
+    background: url("./photo/porshe.jpg") no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.first-car{
+    width: 100%;
+    height: 100%;
+    background: url("./photo/1930.jpg") no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.second-car{
+    width: 100%;
+    height: 100%;
+    background: url("./photo/1940.jpg") no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.third-car{
+    width: 100%;
+    height: 100%;
+    background: url("./photo/1950.jpg") no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.forth-car{
+    width: 100%;
+    height: 100%;
+    background: url("./photo/1960.jpg") no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.fifth-car{
+    width: 100%;
+    height: 100%;
+    background: url("./photo/1970.jpg") no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.sixth-car{
+    width: 100%;
+    height: 100%;
+    background: url("./photo/1980.jpg") no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.seventh-car{
+    width: 100%;
+    height: 100%;
+    background: url("./photo/1990.jpg") no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.eigth-car{
+    width: 100%;
+    height: 100%;
+    background: url("./photo/2000.jpg") no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.ninth-car{
+    width: 100%;
+    height: 100%;
+    background: url("./photo/2010.jpg") no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.tenth-car{
+    width: 100%;
+    height: 100%;
+    background: url("./photo/2020.jpg") no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.title-of-divs{
+    padding-top: 50px;
+    font-size: 22pt;
+    color: white;
+    text-align: center;
+}
+.inform-of-divs{
+    color: white;
+    font-size: 13pt;
+    text-align: center;
+    width: 700px;
+    padding-top: 30px;
+}
+.the-title-span{
+    font-weight: bolder;
+}
